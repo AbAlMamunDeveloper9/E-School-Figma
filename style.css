@@ -20,6 +20,7 @@ body {
 /*****************************************Header Area Started******************************************/
 .with-fun {
     padding: 40px 0px;
+    background: #F0FFF0;
 }
 
 .upper-area {
@@ -148,8 +149,12 @@ body {
 }
 .topic {
     display: flex;
-    justify-content: center;
-    gap: 200px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.topic .col-1-4 {
+    background: #F8FFFB;
+    border-radius: 10px;
 }
 .topic .col-1-4 img {
     width: 60%;
@@ -175,10 +180,11 @@ body {
 }
 /**************************************Student Topic Area Completed***************************************/
 
-/**************************************Student Topic Area Started***************************************/
+/**************************************online courses Area Started***************************************/
 
 .online-course {
     padding-top: 80px;
+    background: #eee8e8;
 }
 .online-course h2 {
     color: #413960;
